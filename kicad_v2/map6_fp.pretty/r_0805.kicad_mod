@@ -1,0 +1,244 @@
+(footprint "r_0805"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "SMT capacitor, 0805")
+	(property "Reference" "R6"
+		(at -6 0 180)
+		(layer "F.SilkS")
+		(uuid "dc41028c-ddef-479d-9e78-69577ca3e7b3")
+		(effects
+			(font
+				(size 0.9 0.9)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "10k"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "9e2ddf8b-3b5a-421a-a1a0-63620c4d0219")
+		(effects
+			(font
+				(size 0.9 0.9)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2d6a8156-2fa1-4432-8ec2-4c19ad764eed")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "27f73ac7-074f-4058-be76-68b259d5993b")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -2.54 -1.27)
+		(end -2.54 1.27)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "8170d84b-7dd2-41b1-b352-ad3fe9cbe542")
+	)
+	(fp_line
+		(start -2.54 1.27)
+		(end 2.54 1.27)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "4e76f6cd-b074-4aea-9164-2e16eb9e2b42")
+	)
+	(fp_line
+		(start -0.4 -0.7)
+		(end 0.4 -0.7)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "860dbcd3-366c-45ed-a4d9-be2fb99c8fe8")
+	)
+	(fp_line
+		(start 0.4 0.7)
+		(end -0.4 0.7)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "864fa58f-e253-4b41-a3b2-1a85bf3914db")
+	)
+	(fp_line
+		(start 2.54 -1.27)
+		(end -2.54 -1.27)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "b33bb3a2-9b88-4b8a-bcfe-39e01b463cc9")
+	)
+	(fp_line
+		(start 2.54 1.27)
+		(end 2.54 -1.27)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "5f700d7f-3105-4b36-9bdb-9e3e936b7e55")
+	)
+	(fp_line
+		(start -4.7 -1.3)
+		(end 4.7 -1.3)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "f5d52f5f-8c42-47c5-960e-36c19f660ca5")
+	)
+	(fp_line
+		(start -4.7 1.3)
+		(end -4.7 -1.3)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "242ebb14-f0f7-4a0c-b3e6-793195970559")
+	)
+	(fp_line
+		(start 4.7 -1.3)
+		(end 4.7 1.3)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "9f47d14b-bf73-4b63-9fa7-e3b31be0d8c0")
+	)
+	(fp_line
+		(start 4.7 1.3)
+		(end -4.7 1.3)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "6ab0521e-69f3-4e0f-998f-acf6c7bc1836")
+	)
+	(fp_line
+		(start -2.5 -1.3)
+		(end 2.5 -1.3)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "102ee40c-f683-439f-b3dc-fbfba2da3619")
+	)
+	(fp_line
+		(start -2.5 1.3)
+		(end -2.5 -1.3)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "e0766d98-0a1b-419c-9935-7d163a67ccc6")
+	)
+	(fp_line
+		(start 2.5 -1.3)
+		(end 2.5 1.3)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "d09f5e3c-7a1f-4f5d-85c0-25170a74e96c")
+	)
+	(fp_line
+		(start 2.5 1.3)
+		(end -2.5 1.3)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "b9b5955d-a799-4385-a8d1-1f01ae7c33e6")
+	)
+	(fp_text user "${REFERENCE}"
+		(at -5.9 0 0)
+		(layer "F.Fab")
+		(uuid "310ca9cf-8014-4e70-97fb-fd5339c245ef")
+		(effects
+			(font
+				(size 0.9 0.9)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at -3.81 0)
+		(size 1.8 1.8)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "f1a2746e-31f4-43ba-81f9-0bb1cb2c578f")
+	)
+	(pad "1" smd rect
+		(at -0.95 0)
+		(size 1 1.45)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "6b4cad8d-37f0-4384-9d27-8b649298f972")
+	)
+	(pad "2" smd rect
+		(at 0.95 0)
+		(size 1 1.45)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "f42ef750-a700-47f1-a923-42a6bee2255d")
+	)
+	(pad "2" thru_hole circle
+		(at 3.81 0)
+		(size 1.8 1.8)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "577a9510-a417-4617-a1d7-a8d15c44d945")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/3d_modules/R_Axial_DIN0207_L6_3mm_D2_5mm_P7_62mm_Horizontal_10E.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

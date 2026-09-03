@@ -1,0 +1,213 @@
+(footprint "motor_XDCR_C0720B001F"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 1.9 1.5 0)
+		(layer "B.SilkS")
+		(uuid "9f14c488-04a0-4dd0-8b66-55b80d8379c6")
+		(effects
+			(font
+				(size 0.9 0.9)
+				(thickness 0.15)
+			)
+			(justify mirror)
+		)
+	)
+	(property "Value" "Motor"
+		(at -1.5 1.5 0)
+		(layer "B.SilkS")
+		(uuid "a5496e4d-a9b3-431f-9e70-e9044fef1d73")
+		(effects
+			(font
+				(size 0.9 0.9)
+				(thickness 0.15)
+			)
+			(justify mirror)
+		)
+	)
+	(property "Datasheet" "~"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "af7f511c-6a04-4933-af08-66bdff93af4a")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0c4650de-ee5d-4097-9631-82a189898db5")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Field4" "${VALUE}"
+		(at 0 -19 180)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "35dedac2-8713-4e56-8aef-2b735c91126b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property ki_fp_filters "PinHeader*P2.54mm* TerminalBlock*")
+	(sheetname "/")
+	(sheetfile "MAP6.kicad_sch")
+	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -4 -12.375)
+		(end 4 -12.375)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "978541ad-329a-46fb-a966-9b17c92c31d1")
+	)
+	(fp_line
+		(start -4 -4.625)
+		(end -4 -12.375)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "9b8a3f51-5784-4f58-b8bb-fcb9d4a77005")
+	)
+	(fp_line
+		(start -1.5 -4.625)
+		(end -4 -4.625)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "676783e3-a009-407e-95ea-f188d44966a0")
+	)
+	(fp_line
+		(start -1.5 -0.625)
+		(end -1.5 -4.625)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "79b2a221-e95b-4ddc-9b64-07839cb6d596")
+	)
+	(fp_line
+		(start 1.5 -4.625)
+		(end 1.5 -0.625)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "91f26916-d4fa-4702-857f-1f2d0cf44a37")
+	)
+	(fp_line
+		(start 1.5 -0.625)
+		(end -1.5 -0.625)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "50f61870-59c5-4d91-8b20-afe01bb26674")
+	)
+	(fp_line
+		(start 4 -12.375)
+		(end 4 -4.625)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "86573d67-a09a-4f03-a36e-c9bf15d3917c")
+	)
+	(fp_line
+		(start 4 -4.625)
+		(end 1.5 -4.625)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "05eb4dae-215e-428f-bbd8-c97b44c89749")
+	)
+	(fp_circle
+		(center 0 -19)
+		(end 5 -19)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "3a9b0102-c3fe-4b68-93cb-233f1ceab01c")
+	)
+	(fp_text user "[+]"
+		(at -3.5 0 180)
+		(layer "B.SilkS")
+		(uuid "9624ddfc-2cbf-4005-8a39-dd006b423c1b")
+		(effects
+			(font
+				(size 0.9 0.9)
+				(thickness 0.15)
+			)
+			(justify mirror)
+		)
+	)
+	(fp_text user "[-]"
+		(at 3.5 0 180)
+		(layer "B.SilkS")
+		(uuid "568b67f5-dd19-49e9-8daa-402e812ee151")
+		(effects
+			(font
+				(size 0.9 0.9)
+				(thickness 0.15)
+			)
+			(justify mirror)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at -1.27 0)
+		(size 1.8 1.8)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "15beb611-6299-4824-a0e1-84b80d7a3e01")
+	)
+	(pad "2" thru_hole roundrect
+		(at 1.27 0)
+		(size 1.8 1.8)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.25)
+		(uuid "92530ee3-ae22-4e46-9fd4-c4d481b7603f")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/3d_modules/motor_C0720B001F.step"
+		(offset
+			(xyz 0 17 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -0)
+		)
+	)
+)

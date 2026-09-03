@@ -1,0 +1,231 @@
+(footprint "C_Disc_D5.0mm_W2.5mm_P2.50mm"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "C, Disc series, Radial, pin pitch=2.50mm, , diameter*width=5*2.5mm^2, Capacitor, http://cdn-reichelt.de/documents/datenblatt/B300/DS_KERKO_TC.pdf")
+	(tags "C Disc series Radial pin pitch 2.50mm  diameter 5mm width 2.5mm Capacitor")
+	(property "Reference" "REF**"
+		(at -2.38 0 90)
+		(layer "F.SilkS")
+		(uuid "c9e565ea-7407-4065-ada9-c7cfe2e3a021")
+		(effects
+			(font
+				(size 0.9 0.9)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "10nF"
+		(at 4.82 0 90)
+		(layer "F.SilkS")
+		(uuid "4f9340bf-8d99-4186-9c5e-297e420cd833")
+		(effects
+			(font
+				(size 0.9 0.9)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "~"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9d9d66b3-c214-4c60-b07c-9c98cdadef11")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify mirror)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "749c0514-2564-4306-b2dc-b4d7ed8a9db3")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify mirror)
+		)
+	)
+	(property "Field4" "${VALUE}"
+		(at 4.82 0 90)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "76645cfc-f49b-4268-b4b2-3bd369463204")
+		(effects
+			(font
+				(size 0.9 0.9)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property ki_fp_filters "CP_*")
+	(sheetname "/")
+	(sheetfile "MAP6.kicad_sch")
+	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start 3.87 -1.37)
+		(end 3.87 1.37)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "97eb4a86-cc0f-4e38-9d40-eb241b6d70b3")
+	)
+	(fp_line
+		(start -1.37 1.37)
+		(end 3.87 1.37)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f8f91276-8bb1-402b-9a54-3e89586c23c8")
+	)
+	(fp_line
+		(start -1.37 -1.37)
+		(end 3.87 -1.37)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "0d610315-5b14-41cc-a6f4-0ae7366a1950")
+	)
+	(fp_line
+		(start -1.37 -1.37)
+		(end -1.37 1.37)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "fc91104b-537d-428a-934f-b4ecf3ed1080")
+	)
+	(fp_line
+		(start 4 1.5)
+		(end 4 -1.5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "320dff5f-346a-4851-aeb8-8c7b50db9621")
+	)
+	(fp_line
+		(start 4 -1.5)
+		(end -1.5 -1.5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "0fbe249b-032b-4659-8b8d-81101048fe60")
+	)
+	(fp_line
+		(start -1.5 1.5)
+		(end 4 1.5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "43cf5948-f14f-4c46-a922-9740b8d2785c")
+	)
+	(fp_line
+		(start -1.5 -1.5)
+		(end -1.5 1.5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "32f7fb0e-2eb6-4dd7-a609-4e510f20a7ec")
+	)
+	(fp_line
+		(start 3.75 1.25)
+		(end 3.75 -1.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "4d13c3bd-c0b9-43d5-adbd-3b6ecac8f0f1")
+	)
+	(fp_line
+		(start 3.75 -1.25)
+		(end -1.25 -1.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "89f0fe69-4969-4972-b709-3d3f2e794688")
+	)
+	(fp_line
+		(start -1.25 1.25)
+		(end 3.75 1.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "5ea60b7b-2bfa-4224-9600-95bc47802b1e")
+	)
+	(fp_line
+		(start -1.25 -1.25)
+		(end -1.25 1.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "cd115ab3-a45a-469a-b4f2-2c122047e369")
+	)
+	(fp_text user "${REFERENCE}"
+		(at -1.98 0 90)
+		(layer "F.Fab")
+		(uuid "936677e8-fdcc-4fce-95a4-b8cd78f9ecfd")
+		(effects
+			(font
+				(size 0.9 0.9)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole oval
+		(at 0 0 180)
+		(size 1.2 2.4)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "b13d47da-0dd6-4510-a66b-e137ce49b297")
+	)
+	(pad "2" thru_hole roundrect
+		(at 2.5 0 180)
+		(size 1.2 2.4)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.25)
+		(uuid "9e2e80b6-55b8-4eda-a355-c7b202d06e62")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/3d_modules/C_Disc_D50mm_W25mm_P250mm.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

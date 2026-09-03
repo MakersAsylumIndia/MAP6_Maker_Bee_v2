@@ -1,0 +1,66 @@
+(footprint "MTG_2mm"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 1.27 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "c2237d80-f951-44ca-b349-5bb374686999")
+		(effects
+			(font
+				(size 0.9 0.9)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Pin"
+		(at 0 -1.27 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "95abfd8f-5418-4a4c-a0a2-88c0c6f628e0")
+		(effects
+			(font
+				(size 0.9 0.9)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1098d9b0-0552-44fb-9915-9e43db6c2875")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ca493654-ee7d-4089-99ec-fc9e92a2b7fe")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property ki_fp_filters "MountingHole*")
+	(sheetname "/")
+	(sheetfile "MAP6.kicad_sch")
+	(attr through_hole exclude_from_pos_files exclude_from_bom)
+	(duplicate_pad_numbers_are_jumpers no)
+	(pad "1" thru_hole circle
+		(at 0 0)
+		(size 3.048 3.048)
+		(drill 2.036)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "376cb373-be60-4db3-a127-db53fdddff35")
+	)
+	(embedded_fonts no)
+)
